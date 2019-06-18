@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="股票K线图"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/min_but"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="分时图"/>
+        <Button
+            android:id="@+id/day_but"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="日K" />
+        <Button
+            android:id="@+id/week_but"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="周K"/>
+        <Button
+            android:id="@+id/mouth_but"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="月K"/>
+    </LinearLayout>
+    <!--<com.ant.liao.GifView-->
+    <!--android:id="@+id/k_line_img"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+    <!--<pl.droidsonroids.gif.GifImageView-->
+        <!--android:id="@+id/k_line_img"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <!--<com.cunoraz.gifview.library.GifView-->
+        <!--android:id="@+id/k_line_img"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <ImageView
+        android:id="@+id/k_line_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.vinsonguo.klinelib.chart.AppCombinedChart
+        android:id="@+id/vol_chart"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_chart_height"
+        android:layout_gravity="bottom" />
+
+
+    <com.vinsonguo.klinelib.chart.AppCombinedChart
+        android:id="@+id/macd_chart"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_chart_height"
+        android:layout_gravity="bottom" />
+
+    <com.vinsonguo.klinelib.chart.AppCombinedChart
+        android:id="@+id/kdj_chart"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_chart_height"
+        android:layout_gravity="bottom" />
+    <com.vinsonguo.klinelib.chart.AppCombinedChart
+        android:id="@+id/rsi_chart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom" />
+    <com.vinsonguo.klinelib.chart.AppCombinedChart
+        android:id="@+id/boll_chart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom" />
+    <com.vinsonguo.klinelib.chart.AppCombinedChart
+        android:id="@+id/wr_chart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom" />
+    <com.vinsonguo.klinelib.chart.AppCombinedChart
+        android:id="@+id/expma_chart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom" />
+    <com.vinsonguo.klinelib.chart.AppCombinedChart
+        android:id="@+id/roc_chart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom" />
+    <com.vinsonguo.klinelib.chart.AppCombinedChart
+        android:id="@+id/dmi_chart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.vinsonguo.klinelib.chart.AppCombinedChart
+            android:id="@+id/price_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <com.vinsonguo.klinelib.chart.KLineChartInfoView
+            android:id="@+id/k_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</FrameLayout>

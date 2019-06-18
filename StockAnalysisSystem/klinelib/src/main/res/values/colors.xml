@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color_red">#ff3b30</color>
+    <color name="main_color_green">#4cd964</color>
+
+
+    <!--图表-->
+
+    <color name="marker_color">#be945c</color>
+    <color name="marker_text_color">#333333</color>
+    <color name="chart_grid_color">#333333</color>
+
+    <color name="ma5">#823E66</color>
+    <color name="ma10">#B99C7A</color>
+    <color name="ma20">#3C7193</color>
+    <color name="ma30">#7F9976</color>
+
+    <color name="dif">@color/ma5</color>
+    <color name="dea">@color/ma10</color>
+
+    <color name="k">@color/ma5</color>
+    <color name="d">@color/ma10</color>
+    <color name="j">@color/ma20</color>
+
+    <color name="wr1">#3C7193</color>
+    <color name="wr2">#FFFF00</color>
+
+    <color name="pdi">#3C7193</color>
+    <color name="mdi">#D15FEE</color>
+    <color name="adx">#EEDC82</color>
+    <color name="adxr">#9ACD32</color>
+
+
+    <color name="increasing_color">@color/main_color_red</color>
+    <color name="decreasing_color">@color/main_color_green</color>
+    <color name="normal_line_color">#be945c</color>
+    <color name="ave_color">#666</color>
+    <color name="axis_color">#333</color>
+    <color name="chart_info_color">#88000000</color>
+    <color name="chart_no_data_color">#be945c</color>
+    <color name="highlight_color">#be945c</color>
+    <color name="limit_color">#adadad</color>
+    <color name="white">#fff</color>
+
+</resources>

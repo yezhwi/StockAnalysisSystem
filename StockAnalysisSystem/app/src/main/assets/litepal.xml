@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="stock_analysis_system" />
+    <version value="11" />
+    <list>
+        <mapping class="com.example.market_fragment.db.tradeDB"></mapping>
+        <mapping class="com.example.market_fragment.db.StockInfoDB"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.healthChinaStock"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.greenCarStock"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.xaNewAreaStock"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.aiStock"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.fgStock"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.oneRoadStock"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.saveEnergyStock"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.vrStock"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.xaNewAreaStock"></mapping>
+        <mapping class="com.example.home_fragment.ThemeDB.yqStock"></mapping>
+    </list>
+
+</litepal>

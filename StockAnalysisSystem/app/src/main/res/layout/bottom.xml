@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="75dp"
+              android:orientation="horizontal"
+              android:background="@color/white">
+    <LinearLayout
+        android:id="@+id/id_tab_home"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageButton
+            android:id="@+id/id_tab_home_img"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clickable="false"
+            android:src="@drawable/menu_home_select_img"/>
+        <TextView
+            android:id="@+id/home_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/headred"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <!-- 第二个按钮：start -->
+
+    <!-- 第二个按钮结束 -->
+    <!-- 第三个按钮：start -->
+    <LinearLayout
+        android:id="@+id/id_tab_hq"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/id_tab_hq_img"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clickable="false"
+            android:src="@drawable/menu_hangqing_normal_img"
+            />
+
+        <TextView
+            android:id="@+id/hq_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="行情信息"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <!-- 第三个按钮结束 -->
+    <LinearLayout
+        android:id="@+id/id_tab_trade"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/id_tab_trade_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clickable="false"
+            android:layout_weight="2"
+            android:src="@drawable/menu_trade_normal_img"
+            />
+
+        <TextView
+            android:id="@+id/trade_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模拟炒股"
+            android:layout_weight="1"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/id_tab_setting"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/id_tab_setting_img"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/gray"-->
+            <!--android:clickable="false"-->
+            <!--android:src="@drawable/menu_news_normal_img"-->
+            <!--android:layout_weight="2"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="资讯"-->
+            <!--android:textColor="@color/gray"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>

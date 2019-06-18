@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>健康中国</item>
+        <item>新能源汽车</item>
+        <item>雄安新区</item>
+        <item>节能环保</item>
+        <item>虚拟现实</item>
+        <item>一带一路</item>
+        <item>央企混改</item>
+        <item>人工智能</item>
+        <item>5G</item>
+    </string-array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stockanalysissystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.home_fragment.SearchInfo"></activity>
+        <activity android:name="com.example.market_fragment.IndexInfo" />
+        <activity android:name="com.example.market_fragment.BuyStock" />
+        <activity
+            android:name="com.example.kLine_fragment.myKline"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.kLine_fragment.fragment.FullScreenActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.example.home_fragment.upStock" />
+        <activity android:name="com.example.home_fragment.downStock" />
+        <activity android:name="com.example.home_fragment.FiveG.FiveGItemShow" />
+        <activity android:name="com.example.home_fragment.FiveG.FiveGStockShow" />
+        <activity android:name="com.example.home_fragment.AI.AI_Item_Show" />
+        <activity android:name="com.example.home_fragment.AI.AIStockShow" />
+        <activity android:name="com.example.home_fragment.yq.yq_item_show" />
+        <activity android:name="com.example.home_fragment.yq.yqStockShow" />
+        <activity android:name="com.example.home_fragment.OneRoad.one_road_but_Show" />
+        <activity android:name="com.example.home_fragment.OneRoad.OneRoadStockShow" />
+        <activity android:name="com.example.home_fragment.VR.vrButShow" />
+        <activity android:name="com.example.home_fragment.VR.VRStockShow" />
+        <activity android:name="com.example.home_fragment.saveEnergy.landscaping_show" />
+        <activity android:name="com.example.home_fragment.saveEnergy.saveEnergyStockShow" />
+        <activity android:name="com.example.home_fragment.xaNewArea.xa_wisdom_show" />
+        <activity android:name="com.example.home_fragment.xaNewArea.xaNewAreaShow" />
+        <activity android:name="com.example.home_fragment.green_car.charge_bar_show" />
+        <activity android:name="com.example.home_fragment.green_car.greenCarStockShow" />
+        <activity android:name="com.example.home_fragment.healthChina_fagment.medical_invest_show" />
+        <activity android:name="com.example.home_fragment.healthChina_fagment.healthChinaStockShow" />
+        <activity android:name="com.example.home_fragment.AddStockToTheme" />
+        <activity android:name="com.example.home_fragment.lowPriceStock" />
+        <activity android:name="com.example.home_fragment.volumeStock" />
+        <activity android:name="com.example.home_fragment.SearchStock" />
+        <activity android:name="com.example.market_fragment.StockDetail" />
+        <activity android:name="com.example.market_fragment.hgStockActivity" />
+        <activity android:name="com.example.market_fragment.sgStockActivity" />
+        <activity android:name="com.example.market_fragment.hkStockActivity" />
+        <activity android:name="com.example.market_fragment.usStockActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
